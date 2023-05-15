@@ -1,0 +1,6 @@
+[my_local]
+localhost ansible_connection=local
+
+[adrian_remote]
+129.39.244.228 ansible_ssh_user=root ansible_ssh_pass=smartvm01@Autosde
+129.39.244.230 ansible_ssh_user=root ansible_ssh_pass=smartvm01@Autosde
