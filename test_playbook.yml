@@ -1,0 +1,10 @@
+---
+
+- name: My first playbook
+  hosts: all
+  tasks:
+    - name: Run test command
+      shell:
+        cmd: echo "Hello World" > ~/test.txt
+    - name: ping
+      ping:
